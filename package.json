@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-deploy-rollbar",
+  "name": "@boundless-inc/ember-cli-deploy-rollbar",
   "version": "1.4.0",
   "description": "ember-cli-deploy addon that integrates Rollbar to your index.html file and uploads source maps to Rollbar API",
   "directories": {
@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "node tests/runner.js"
   },
-  "repository": "https://github.com/netguru/ember-cli-deploy-rollbar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boundless-inc/ember-cli-deploy-rollbar.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -56,5 +59,9 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/boundless-inc/ember-cli-deploy-rollbar/issues"
+  },
+  "homepage": "https://github.com/boundless-inc/ember-cli-deploy-rollbar#readme"
 }
